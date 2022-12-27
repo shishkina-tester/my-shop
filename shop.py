@@ -365,3 +365,10 @@
 # driver.quit()
 
 # D:/Тестирование BE TESTED ДЗ+Теория/Python/book_store_testing
+
+https://github.com/users/shishkina-tester/projects/1/views/1
+https://github.com/users/shishkina-tester/projects/1/views/1
+
+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gi
+
+http://github.com/shishkina-tester/Lesson_4.git

@@ -33,7 +33,49 @@
 # driver.quit()
 
 
+
+
+
 #
+# # Shop: количество товаров в категории
+#
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.support.select import Select
+# from selenium import webdriver
+#
+#
+# driver = webdriver.Chrome()
+# driver.implicitly_wait(5)
+# driver.maximize_window()
+#
+# # 1. Откройте http://practice.automationtesting.in/
+# driver.get("http://practice.automationtesting.in/")
+# # 2. Залогиньтесь
+# my_account = driver.find_element(By.CSS_SELECTOR, "#menu-item-50>a")
+# my_account.click()
+# driver.find_element(By.CSS_SELECTOR,".u-column1 [name='username']").send_keys("shishkina_tester@mail.ru")
+# driver.find_element(By.CSS_SELECTOR,".u-column1 [name='password']").send_keys("QQwer1234!@#$")
+# driver.find_element(By.CSS_SELECTOR,".u-column1 [name='login']").click()
+# # 3. Нажмите на вкладку "Shop"
+# driver.find_element(By.CSS_SELECTOR,"#menu-item-40 a").click()
+# # 4. Откройте категорию "HTML"
+# html=driver.find_element(By.CSS_SELECTOR,".product-categories>li:nth-child(2)>a")
+# html.click()
+# # 5. Добавьте тест, что отображается три товара
+# html_items=driver.find_elements(By.CLASS_NAME,"type-product")
+# if len(html_items) == 3:
+#     print("В категории HTML 3 товара")
+# else:
+#     print("Ошибка. Количество товаров в категории HTML: " + str(len(html_items)))
+#
+# driver.quit()
+#
+
+
+
+
 # # Shop: сортировка товаров
 #
 # from selenium.webdriver.common.by import By
@@ -89,7 +131,7 @@
 
 
 
-
+#
 # # Shop: отображение, скидка товара
 #
 # from selenium.webdriver.common.by import By
@@ -186,13 +228,13 @@
 # # # если все книги будут out of stock - тогда пропустите это и следующие два задания
 #
 # driver.quit()
-
-
-
-
-
-
 #
+
+
+
+
+
+
 # # Shop: работа в корзине
 #
 # from selenium.webdriver.common.by import By
@@ -366,9 +408,14 @@
 
 # D:/Тестирование BE TESTED ДЗ+Теория/Python/book_store_testing
 
-https://github.com/users/shishkina-tester/projects/1/views/1
-https://github.com/users/shishkina-tester/projects/1/views/1
-
-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gi
-
-http://github.com/shishkina-tester/Lesson_4.git
+# https://github.com/users/shishkina-tester/projects/1/views/1
+# https://github.com/users/shishkina-tester/projects/1/views/1
+#
+# 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gi
+#
+# http://github.com/shishkina-tester/Lesson_4.git
+# https://github.com/shishkina-tester/my-shop.git
+#
+# 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
+#
+# https://github.com/shishkina-tester/my-shop
